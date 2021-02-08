@@ -18,8 +18,11 @@ function CardItem(props) {
             />
           </figure>
           <div className="cards-item-info">
-            <h5 className="cards-item-text">Description: {props.text}</h5>
-            <a href={props.gh}>{props.gh}</a>
+            <h5 className="cards-item-text">
+              Description: {props.text}
+              <p />
+              <p>Github: {props.gh}</p>
+            </h5>
           </div>
         </a>
       </li>
