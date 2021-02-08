@@ -1,6 +1,6 @@
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/home.jpg") center center/cover no-repeat;
+    url("../assets/home.jpg") center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
