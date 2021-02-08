@@ -4,7 +4,7 @@
 
 A portfolio showing off my personal work and a bit about myself. Includes a contact form to get in touch with me as well as clickable social media links in the footer.
 
-![image](.readme.jpg)
+![image](./readme.jpg)
 
 ## Credits
 
