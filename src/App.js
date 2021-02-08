@@ -13,12 +13,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
-          <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
-          <Route
-            path={process.env.PUBLIC_URL + "/contact"}
-            component={Contact}
-          />
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
           <Route path="*" component={Home} />
         </Switch>
         <Footer />
