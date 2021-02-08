@@ -1,0 +1,28 @@
+.form-container {
+  background-color: rgba(256, 256, 256, 0.5);
+  width: 40vw;
+  height: 50vh;
+  padding: 1rem;
+}
+
+.form-row {
+  margin-bottom: 2em;
+}
+
+/* Styles button to fit with theme */
+.submit-btn {
+  font-size: 18px;
+  font-weight: 500;
+  border: 3px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+
+.submit-btn:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
